@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="CSS/WeatherApp.css">
+
+</head>
+
+<body>
+    <div id="weather_app">
+        <br>
+        <section id="data_input">
+            <input id="city" type="text" placeholder="Enter city">
+            <input type="button" id="display_weather" value="Afiseaza vremea">
+            <input type="button" id="display_forecast" value="Afiseaza prognoza">
+            <br>
+        </section>
+        <br>
+        <div id="weatherNow">
+            <div id=p>
+                <header id="Now">Vremea acum<br></header><br><br>
+
+                <div id="weather_icon"></div>
+
+                <span id="description">Descriere: </span><br>
+                <span id="humidity">Umiditate:</span><br>
+                <span id="pression">Presiune: </span><br>
+                <span id="current_temp">Temperatura curenta: </span><br>
+                <span id="minimum">Minima zilei: </span><br>
+                <span id="maximum">Maxima zilei: </span><br>
+            </div>
+        </div>
+        <br>
+        <div>
+            <header id="Next">Vremea in urmatoarele zile</header>
+        </div>
+        <div id="forecast">
+         
+            <div id=display_days>
+
+                <div id="day1">
+                    <div id="day1_date">
+                        <p>Ziua:</p>
+                    </div>
+                    <div id="day1_1"></div>
+                </div>
+                <br><br><br>
+                <div id="day2">
+                    <div id="day2_date">
+                        <p>Ziua:</p>
+                    </div>
+                    <div id="day2_1"></div>
+                </div>
+                <br><br><br>
+                <div id="day3">
+                    <div id="day3_date">
+                        <p>Ziua:</p>
+                    </div>
+                    <div id="day3_1"></div>
+                </div>
+                <br><br><br>
+                <div id="day4">
+                    <div id="day4_date">
+                        <p>Ziua:</p>
+                    </div>
+                    <div id="day4_1"></div>
+                </div>
+                <br><br><br>
+                <div id="day5">
+                    <div id="day5_date">
+                        <p>Ziua:</p>
+                    </div>
+                    <div id="day5_1"></div>
+                </div>
+                <br><br><br>
+                <div id="day6">
+                    <div id="day6_date">
+                        <p>Ziua:</p>
+                    </div>
+                    <div id="day6_1"></div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </div>
+    </div>
+    <script src="JS/WeatherApp.js"></script>
+
+</body>
+
+</html>

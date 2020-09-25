@@ -1,0 +1,122 @@
+#forecast{
+    display: flex;
+}
+#forecast p{
+    background-color: rgb(210, 228, 250);
+}
+#weather_app{
+width: 1000px;
+margin: 0 auto;
+background-color: rgb(210, 228, 250);
+border-radius: 5px;
+}
+#data_input{
+padding-left: 8px;
+padding-right: 8px;
+padding-top:20px;
+padding-bottom:20px;
+background-color: white;
+margin-left: 8px;
+margin-right: 8px;
+border-radius: 5px; 
+
+}
+#weatherNow{
+    padding: 8px;
+background-color: white;
+margin-left: 8px;
+margin-right: 8px;
+border-radius: 5px;
+}
+#forecast{
+    padding: 8px;
+background-color: white;
+margin-left: 8px;
+margin-right: 8px;
+border-radius: 5px;
+display: none;
+
+}
+#Now{
+    font-weight: bold;
+    border-bottom: 1px solid rgb(218, 215, 215);
+}
+#Next{
+    font-weight: bold;
+    border-bottom: 1px solid rgb(218, 215, 215);
+    padding: 8px;
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+#display_days{
+    display: flex;
+    font-size: 15px;
+}
+#day1_1 {
+    font-size: 15px;
+    text-align: center;
+}
+#day2_1 {
+    font-size: 15px;
+    text-align: center;
+}
+#day3_1 {
+    font-size: 15px;
+    text-align: center;
+}
+#day4_1 {
+    font-size: 15px;
+    text-align: center;
+}
+#day5_1 {
+    font-size: 15px;
+    text-align: center;
+}
+#day6_1{
+    font-size: 15px;
+    text-align: center;
+}
+#day1_date{
+    background-color:rgb(210, 228, 250) ;
+    margin: 3px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#day2_date{
+    background-color:rgb(210, 228, 250) ;
+    margin: 3px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#day3_date{
+    background-color:rgb(210, 228, 250) ;
+    margin: 3px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#day4_date{
+    background-color:rgb(210, 228, 250) ;
+    margin: 3px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#day5_date{
+    background-color:rgb(210, 228, 250) ;
+    margin: 3px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#day6_date{
+    background-color:rgb(210, 228, 250) ;
+    margin: 3px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
