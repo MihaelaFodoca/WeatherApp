@@ -128,22 +128,22 @@ function splitForecastListDataByDay() {
     document.getElementById("day6_date").innerHTML = "Day: " + day6[0]["currentDate"];
     var i
     for (i = 0; i < day1.length; i++) {
-        document.getElementById("day1_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day1[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Ora: " + day1[i]["currentHour"] + "<br>" + "Temperatura: " + day1[i]["main"]["temp"] + "<br>" + "Descriere: " + day1[i]["weather"][0]["description"];
+        document.getElementById("day1_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day1[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Hour: " + day1[i]["currentHour"] + "<br>" + "Temperature: " + day1[i]["main"]["temp"] + "<br>" + "Description: " + day1[i]["weather"][0]["description"];
     }
     for (i = 0; i < day2.length; i++) {
-        document.getElementById("day2_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day2[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Ora: " + day2[i]["currentHour"] + "<br>" + "Temperatura: " + day2[i]["main"]["temp"] + "<br>" + "Descriere: " + day2[i]["weather"][0]["description"];
+        document.getElementById("day2_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day2[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Hour: " + day2[i]["currentHour"] + "<br>" + "Temperature: " + day2[i]["main"]["temp"] + "<br>" + "Description: " + day2[i]["weather"][0]["description"];
     }
     for (i = 0; i < day3.length; i++) {
-        document.getElementById("day3_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day3[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Ora: " + day3[i]["currentHour"] + "<br>" + "Temperatura: " + day3[i]["main"]["temp"] + "<br>" + "Descriere: " + day3[i]["weather"][0]["description"];
+        document.getElementById("day3_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day3[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Hour: " + day3[i]["currentHour"] + "<br>" + "Temperature: " + day3[i]["main"]["temp"] + "<br>" + "Description: " + day3[i]["weather"][0]["description"];
     }
     for (i = 0; i < day4.length; i++) {
-        document.getElementById("day4_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day4[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Ora: " + day4[i]["currentHour"] + "<br>" + "Temperatura: " + day4[i]["main"]["temp"] + "<br>" + "Descriere: " + day4[i]["weather"][0]["description"];
+        document.getElementById("day4_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day4[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Hour: " + day4[i]["currentHour"] + "<br>" + "Temperature: " + day4[i]["main"]["temp"] + "<br>" + "Description: " + day4[i]["weather"][0]["description"];
     }
     for (i = 0; i < day5.length; i++) {
-        document.getElementById("day5_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day5[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Ora: " + day5[i]["currentHour"] + "<br>" + "Temperatura: " + day5[i]["main"]["temp"] + "<br>" + "Descriere: " + day5[i]["weather"][0]["description"];
+        document.getElementById("day5_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day5[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Hour: " + day5[i]["currentHour"] + "<br>" + "Temperature: " + day5[i]["main"]["temp"] + "<br>" + "Description: " + day5[i]["weather"][0]["description"];
     }
     for (i = 0; i < day6.length; i++) {
-        document.getElementById("day6_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day6[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Ora: " + day6[i]["currentHour"] + "<br>" + "Temperatura: " + day6[i]["main"]["temp"] + "<br>" + "Descriere: " + day6[i]["weather"][0]["description"];
+        document.getElementById("day6_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day6[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Hour: " + day6[i]["currentHour"] + "<br>" + "Temperature: " + day6[i]["main"]["temp"] + "<br>" + "Description: " + day6[i]["weather"][0]["description"];
     }
 }
 function refreshForecast(){
