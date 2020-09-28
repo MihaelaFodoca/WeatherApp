@@ -28,12 +28,12 @@ function displayCurrentWeather() {
 }
 
 function AddCurrentWeather() {
-    document.getElementById("description").innerHTML = "Descriere: " + CurrentWeather["weather"][0]["description"];
-    document.getElementById("humidity").innerHTML = "Umiditate: " + CurrentWeather["main"].humidity+"%";
-    document.getElementById("pression").innerHTML = "Presiune: " + CurrentWeather["main"].pressure;
-    document.getElementById("current_temp").innerHTML = "Temperatura curenta: " + CurrentWeather["main"].temp;
-    document.getElementById("minimum").innerHTML = "Minima zilei: " + CurrentWeather["main"].temp_min;
-    document.getElementById("maximum").innerHTML = "Maxima zilei: " + CurrentWeather["main"].temp_max;
+    document.getElementById("description").innerHTML = "Description: " + CurrentWeather["weather"][0]["description"];
+    document.getElementById("humidity").innerHTML = "Humidity: " + CurrentWeather["main"].humidity+"%";
+    document.getElementById("pression").innerHTML = "Pression: " + CurrentWeather["main"].pressure;
+    document.getElementById("current_temp").innerHTML = "Current temperature: " + CurrentWeather["main"].temp;
+    document.getElementById("minimum").innerHTML = "Minimum temp: " + CurrentWeather["main"].temp_min;
+    document.getElementById("maximum").innerHTML = "Maximum temp: " + CurrentWeather["main"].temp_max;
     document.getElementById("weather_icon").innerHTML = "<img src=http://openweathermap.org/img/w/" + CurrentWeather["weather"][0]["icon"] + ".png>";
 }
 
@@ -120,12 +120,12 @@ function splitForecastListDataByDay() {
             }
         }
     }
-    document.getElementById("day1_date").innerHTML = "Ziua: " + day1[0]["currentDate"];
-    document.getElementById("day2_date").innerHTML = "Ziua: " + day2[0]["currentDate"];
-    document.getElementById("day3_date").innerHTML = "Ziua: " + day3[0]["currentDate"];
-    document.getElementById("day4_date").innerHTML = "Ziua: " + day4[0]["currentDate"];
-    document.getElementById("day5_date").innerHTML = "Ziua: " + day5[0]["currentDate"];
-    document.getElementById("day6_date").innerHTML = "Ziua: " + day6[0]["currentDate"];
+    document.getElementById("day1_date").innerHTML = "Day: " + day1[0]["currentDate"];
+    document.getElementById("day2_date").innerHTML = "Day: " + day2[0]["currentDate"];
+    document.getElementById("day3_date").innerHTML = "Day: " + day3[0]["currentDate"];
+    document.getElementById("day4_date").innerHTML = "Day: " + day4[0]["currentDate"];
+    document.getElementById("day5_date").innerHTML = "Day: " + day5[0]["currentDate"];
+    document.getElementById("day6_date").innerHTML = "Day: " + day6[0]["currentDate"];
     var i
     for (i = 0; i < day1.length; i++) {
         document.getElementById("day1_1").innerHTML += "<br>" + "<img src=http://openweathermap.org/img/w/" + day1[i]["weather"][0]["icon"] + ".png>" + "<br>" + "Ora: " + day1[i]["currentHour"] + "<br>" + "Temperatura: " + day1[i]["main"]["temp"] + "<br>" + "Descriere: " + day1[i]["weather"][0]["description"];
